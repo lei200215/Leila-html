@@ -1,0 +1,26 @@
+
+th,td{
+	padding: 15px;
+	border: 1px solid black;
+}
+th {
+	text-align: left;
+}
+#header2 {border-spacing: 12px;
+          border-radius: 40px;
+          background-color: lightgreen;}
+
+
+
+#header1 { 
+	border: 1px solid black;
+	border-radius: 40px;
+	background-color: blueviolet;
+}
+th,td{
+	padding: 15px;
+}
+th {
+	text-align: left;
+}
+table{border-spacing: 12px;} }

@@ -1,0 +1,9 @@
+body {background-color:powderblue;}
+h1 {color:green;
+   padding: 300px;}
+p {color:black;
+text-align:center;
+border: 2px solid green;
+padding:30px;
+margin: 100px;
+}

@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+ul{ list-style-type: none;
+	margin: 0;
+	padding: 0;
+    width: 200;
+	background-color:darkred;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+  }
+li a {display: block;
+	  color: lightgrey;
+	  width: 25%;
+	  padding: 6px 18px;
+	 }
+li a:hover{
+	background-color: lightyellow;
+	color: white;
+	width: 100%;
+}
+li a.active {
+	background-color: green;
+	color: white;
+	width: 100%;
+}
+li{
+	text-align: center;
+border-bottom: 1px solid violet;}
+
+li:last-child {
+	border-bottom: none;}

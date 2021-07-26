@@ -1,0 +1,19 @@
+.hidden{
+   overflow: hidden;
+   height: 200px;
+   width: 200px;
+   border: 1px solid black;
+}
+.auto{
+  overflow: auto;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.container{
+	position: relative;
+}
+.rel{position: absolute;
+   top: 0;
+   left: 0;}

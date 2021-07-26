@@ -1,0 +1,9 @@
+#header1{ text-align:center;
+color:white;}
+div.right {text-align: right;}
+h1 {color:royalblue;
+	border:2px solid darkred;
+}
+p {color:yellow;}
+body {background-image:url("roses2.jpg");
+      background-repeat: repeat-x;}

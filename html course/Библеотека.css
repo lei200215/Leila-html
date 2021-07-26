@@ -1,0 +1,38 @@
+
+
+     }
+
+h1 {color:pink;
+	text-align:center;
+	font-family: verdana
+	font-size: 200%;
+	
+}
+h2 {color:pink;
+	text-align:center;
+	font-family: cursive;
+	font-size: 90%;
+	
+}
+h3 {text-align: right;
+   background-image: url(nuu.png);
+   background-position: left;
+  background-size: 100%;
+ }
+p {text-align: right;
+  }
+
+a {margin:80px;}
+
+table,th,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-radius: 25px;
+	background-color: darkred;
+}
+th,td {
+	padding: 15px;
+}
+th { text-align: center; }
+table {border-spacing: 5px;
+       }

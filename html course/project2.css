@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+ul{ list-style-type: none;
+	margin: 0;
+	padding: 0;
+    width: 200;
+	background-color:#008080;
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+
+  }
+li a {display: block;
+	  color: lightgrey;
+	  width: 29%;
+	  padding: 10px 25px;
+	 }
+li a:hover{
+	background-color: lightskyblue;
+	color: black;
+	width: 100%;
+}
+li a.active {
+	background-color: pink;
+	color: black;
+	width: 100%;
+}
+li{
+	text-align: center;
+border-bottom: 2px solid whitesmoke;}
+
+li:last-child {
+	border-bottom: none;}
+
+.rel{position: absolute;
+   top: 180px;
+   left: 550px;
+   text-align: center;
+   color: white;
+font-size: 400%;}
+
