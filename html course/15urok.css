@@ -2,7 +2,7 @@ div {
 	width: 100px;
 	height: 100px;
 	transition: width 2s, height 4s;
-	background: powderblue;
+	background: pink;
 	border-radius: 25px;
 	transition-delay: 1s;
 }
