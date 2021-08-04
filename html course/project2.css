@@ -34,9 +34,23 @@ li:last-child {
 	border-bottom: none;}
 
 .rel{position: absolute;
-   top: 180px;
-   left: 550px;
+   top: 20px;
+   left: 600px;
    text-align: center;
-   color: white;
-font-size: 400%;}
+   color: black;}
+div {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animat-iteration-count: infinite;
+	animation-direction: alternate-reverse;
 
+}
+
+@keyframes example {
+0% {background-color: red;left: 0px;top: 0px;}
+25%

@@ -1,11 +1,16 @@
 div {
 	width: 100px;
 	height: 100px;
-	transition: width 2s, height 4s;
-	background: pink;
-	border-radius: 25px;
-	transition-delay: 1s;
+	position: relative;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animat-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+
 }
-div:hover{ 
-	width: 300px; 
-    height: 300px;}
+
+@keyframes example {
+0% {background-color: red;left: 0px;top: 0px;}
+25%
